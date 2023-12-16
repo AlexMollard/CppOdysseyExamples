@@ -140,7 +140,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\vulkan\Application.cpp" />
+    <ClCompile Include="src\vulkan\Common.cpp" />
+    <ClCompile Include="src\vulkan\Container.cpp" />
+    <ClCompile Include="src\vulkan\Device.cpp" />
+    <ClCompile Include="src\vulkan\Pipeline.cpp" />
+    <ClCompile Include="src\vulkan\Shader.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\vulkan\SwapChain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\vulkan\Application.h" />
+    <ClInclude Include="src\vulkan\Common.h" />
+    <ClInclude Include="src\vulkan\Container.h" />
+    <ClInclude Include="src\vulkan\Device.h" />
+    <ClInclude Include="src\vulkan\Pipeline.h" />
+    <ClInclude Include="src\vulkan\Shader.h" />
+    <ClInclude Include="src\vulkan\SwapChain.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
